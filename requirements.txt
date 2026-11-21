@@ -1,0 +1,23 @@
+# ML (pin scikit-learn/xgboost: the saved models in models/ are pickles; if you change
+# versions, re-run `python -m ml.train`)
+pandas==3.0.6
+numpy==2.5.4
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.54.1
+joblib==1.6.0
+matplotlib==3.11.2
+
+# Backend
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+sqlalchemy==2.1.9
+pydantic==2.14.4
+psycopg2-binary==2.9.13
+python-dotenv==1.2.4
+websockets==17.4
+
+# Dev / tests / demo
+pytest==9.2.0
+httpx==0.28.1
+requests==2.34.2

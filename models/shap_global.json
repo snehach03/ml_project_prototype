@@ -1,0 +1,102 @@
+{
+  "model": "SVM",
+  "algorithm": "kernel",
+  "n_samples": 150,
+  "ranking": [
+    {
+      "feature": "rel_error_ratio",
+      "description": "share of keystrokes that were corrections (backspace/delete)",
+      "mean_abs_shap": 0.056722749227584364
+    },
+    {
+      "feature": "rel_app_change_mean",
+      "description": "window/application focus changes per minute",
+      "mean_abs_shap": 0.05641903317781466
+    },
+    {
+      "feature": "rel_drag_mean",
+      "description": "mouse drag events per minute",
+      "mean_abs_shap": 0.04845979197458336
+    },
+    {
+      "feature": "rel_tab_change_mean",
+      "description": "tab or page visibility changes per minute",
+      "mean_abs_shap": 0.04626725343779001
+    },
+    {
+      "feature": "rel_mouse_act_mean",
+      "description": "mouse activity events per minute",
+      "mean_abs_shap": 0.0370732489046174
+    },
+    {
+      "feature": "rel_direction_mean",
+      "description": "arrow-key presses per minute",
+      "mean_abs_shap": 0.024604156644904278
+    },
+    {
+      "feature": "rel_mouse_dist_mean",
+      "description": "distance the cursor travelled per minute",
+      "mean_abs_shap": 0.021808079310920672
+    },
+    {
+      "feature": "rel_mouse_dist_std",
+      "description": "variability of cursor distance between minutes",
+      "mean_abs_shap": 0.019524308203474585
+    },
+    {
+      "feature": "rel_wheel_mean",
+      "description": "scroll-wheel events per minute",
+      "mean_abs_shap": 0.018917319291800447
+    },
+    {
+      "feature": "rel_spaces_mean",
+      "description": "space-bar presses per minute (a proxy for word rate)",
+      "mean_abs_shap": 0.018610312526702547
+    },
+    {
+      "feature": "rel_clicks_mean",
+      "description": "mouse clicks per minute",
+      "mean_abs_shap": 0.015131299177415363
+    },
+    {
+      "feature": "rel_keys_std",
+      "description": "variability of typing volume between minutes",
+      "mean_abs_shap": 0.014590434316520916
+    },
+    {
+      "feature": "rel_chars_mean",
+      "description": "printable characters typed per minute",
+      "mean_abs_shap": 0.012928045979277174
+    },
+    {
+      "feature": "rel_mouse_act_std",
+      "description": "variability of mouse activity between minutes",
+      "mean_abs_shap": 0.011839578079679778
+    },
+    {
+      "feature": "rel_special_ratio",
+      "description": "share of keystrokes that were special keys",
+      "mean_abs_shap": 0.010180748156855584
+    },
+    {
+      "feature": "rel_mouse_act_slope",
+      "description": "trend of mouse activity over the window (rising/falling)",
+      "mean_abs_shap": 0.009687329246272062
+    },
+    {
+      "feature": "rel_keys_slope",
+      "description": "trend of typing volume over the window (rising/falling)",
+      "mean_abs_shap": 0.006285672761306273
+    },
+    {
+      "feature": "rel_active_share",
+      "description": "share of minutes with any keyboard or mouse activity",
+      "mean_abs_shap": 0.005439469976575664
+    },
+    {
+      "feature": "rel_keys_mean",
+      "description": "typing volume (keystrokes per minute)",
+      "mean_abs_shap": 0.004386604666667694
+    }
+  ]
+}
